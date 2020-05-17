@@ -1,10 +1,10 @@
 #include "LiquidCrystal_I2C.h"
 #include <SPI.h> 
 #include <Wire.h> 
-#include <Thermocouple.h>
-#include <MAX6675_Thermocouple.h>
-#include <AverageThermocouple.h>
-#include <SmoothThermocouple.h>
+#include "Thermocouple.h"
+#include "MAX6675_Thermocouple.h"
+#include "AverageThermocouple.h"
+#include "SmoothThermocouple.h"
 #include <SD.h> 
 //#define Button_PIN 2
 
