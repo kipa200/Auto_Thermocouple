@@ -26,7 +26,7 @@ double MAX6675_Thermocouple::readCelsius() {
 		return NAN;
 	}
 	value >>= 3;
-	return (value * 0.25);
+	return (value * 0.2);
 }
 
 /**
